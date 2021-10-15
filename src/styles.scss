@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+$primary: #8d00df;
+$danger: #ff4136;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$blue-pastel: #c7ebde;
+$brow-pastel: #d6ac96;
+$organe-pastel: #ff8e82;
+$white-pastel: #fef9f2;
+
+$cc-text-arsenal: "Arsenal", sans-serif;
+$cc-text-berkshire: "Berkshire Swash", cursive;
+
+.cc-body-bg {
+    background: url("../src/assets/bg/toy-car-3435890_1920\ \(1\).jpg");
+}
+
+.cc-body-text {
+    font-family: $cc-text-arsenal;
+}
+
+.cc-bg-primary {
+  background-color: $white-pastel;
+}
+
+.cc-h2 {
+  color: $brow-pastel;
+  font-family: $cc-text-berkshire;
+  text-decoration: $blue-pastel solid underline;
+  text-underline-position: under;
+  font-size: xx-large;
+}
+
+.cc-h3 {
+  font-family: $cc-text-arsenal;
+  font-weight: bold;
+  font-size: large;
+}
+
+.cc-name {
+  font-family: $cc-text-berkshire;
+}
+
+.cc-link {
+  font-family: $cc-text-arsenal;
+  font-size: 20px;
+  color: $organe-pastel;
+}
